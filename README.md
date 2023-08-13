@@ -1,3 +1,2 @@
 # Full-Stack-SIT-College
-Study material for MERN stack
-hello world
+Study material for MERN stack internship
