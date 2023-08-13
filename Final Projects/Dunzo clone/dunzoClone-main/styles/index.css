@@ -1,0 +1,339 @@
+#signin>button {
+    padding: 8px 20px;
+    background-color: rgb(0, 210, 144);
+    color: white;
+    border: 1px solid rgb(0, 210, 144);
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* OTP */
+#checkOTP {
+    margin-top: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+    gap: 20px;
+}
+#checkOTP>input {
+    padding: 15px;
+    width: 3%;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid rgb(225, 227, 234);
+}
+#count {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    color: rgb(111, 117, 136);
+}
+#count>div:first-child {
+    font-weight: bold;
+}
+#countdown {
+    display: flex;
+    
+}
+
+#signup {
+    margin-top: 75px;
+    width: 100%;
+    height: 100%;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+#signup>div {
+    margin-top: 75px;
+}
+#signup2 {
+    padding: 20px;
+    width: 450px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin: auto;
+}
+#signup2>div> {
+    color: rgb(111, 117, 136);
+}
+#heading1 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+#heading2 {
+    margin-top: 5px;
+}
+.mandatory {
+    margin-top: 25px;
+    display: flex;
+    gap: 5px;
+}
+#input {
+    margin-top: 10px;
+}
+#input>i {
+    padding-left: 20px;
+    padding-top: 18px;
+    position: absolute;
+    color: rgb(111, 117, 136);
+}
+#input>p {
+    position: absolute;
+    padding-left: 50px;
+    color: rgb(111, 117, 136);
+}
+#phone {
+    padding: 15px 10px 15px 90px;
+    width: 345px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid rgb(225, 227, 234);
+}
+#phone:focus {
+    border: 1px solid rgb(0, 179, 122);
+}
+.grey {
+    color: rgb(111, 117, 136);
+}
+.red {
+    color: red;
+}
+
+#signup2>div>img {
+    width: 56px;
+}
+#check {
+    display: flex;
+    gap: 5px;
+}
+#checkbox {
+    margin-top: 50px;
+    fill: rgb(255, 255, 255);
+    stroke: rgb(201, 205, 216);
+    cursor: pointer;
+    font-weight: 500;
+}
+#check>p {
+    margin-top: 47px;
+}
+#check>p>a {
+    color: rgb(0, 179, 122);
+    text-decoration: none;
+}
+#btn>button {
+    margin-top: 30px;
+    font-size: 14px;
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(225, 227, 234);
+    color: white;
+    border: 1px solid rgb(225, 227, 234);
+    border-radius: 30px;
+}
+#close {
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+#close:hover,
+#close:focus {
+  cursor: pointer;
+}
+
+
+
+#main {
+    background: linear-gradient(90.05deg, rgb(9, 17, 37) -2.5%, rgb(33, 61, 133) 100.83%);
+    margin-top: 75px;
+}
+#offers {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+}
+#offers>div>img {
+    padding-top: 5px;
+    height: 32px;
+}
+#offers>div {
+    gap: 10px;
+    display: flex;
+}
+#offers>div>a {
+    text-decoration: none;
+    padding-top: 15px;
+    color: rgb(0, 179, 122);
+}
+#content {
+    background-color: rgb(247, 253, 250);
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+#content>div {
+    width: 65%;
+    margin: auto;
+}
+.title {
+    font-size: 28px;
+    font-weight: 600;
+}
+#container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+#container>div>img {
+    width: 100%;
+    border-radius: 10px;
+}
+#container>div>a>img{
+    width: 100%;
+    border-radius: 10px;
+}
+#container2 {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,150px);
+    gap: 15px;
+}
+#container2>div {
+    background-color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 12px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#container2>div>img {
+    width: 30%;
+}
+
+#picks {
+    padding-top: 30px;
+    width: 65%;
+    margin: auto;
+}
+#container3 {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+}
+#container3>div>img {
+    width: 100%;
+    border-radius: 5px;
+}
+#lines {
+    padding-top: 10px;
+    display: flex;
+    gap: 5px;
+}
+#line {
+    width: 45px;
+    height: 5px;
+    background-color: rgb(37, 211, 102);
+    border-radius: 5px;
+}
+#line2 {
+    width: 20px;
+    height: 5px;
+    background-color: rgb(37, 211, 102);
+    border-radius: 5px;
+}
+#mobileApp {
+    margin-top: 75px;
+    display: flex;
+    justify-content: right;
+    background-color: rgb(240,242,247);
+    padding-bottom: 12px;
+}
+#appPhoto {
+    margin-top: 100px;
+    width: 48%;
+    height: 0px;
+    display: flex;
+    justify-content: right;
+}
+#appPhoto>div>img {
+    width: 205px;
+    padding-right: 20px;
+}
+#app {
+    
+    height: 150px;
+    width: 52%;
+}
+#appLink {
+    display: flex;
+    gap: 15px;
+}
+#appText {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#footer {
+    padding-top: 50px;
+    background-color: rgb(23, 30, 48);
+    color: white;
+    padding-bottom: 60px;
+}
+.para {
+    color: rgb(183, 186, 195);
+}
+#insideFooter {
+    width: 65%;
+    margin: auto;
+}
+#footerLinks {
+    padding-top: 60px;
+    margin-top: 60px;
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+#logo>img {
+    width: 70px;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.links>a {
+    color: white;
+    text-decoration: none;
+}
+.links>a:hover {
+    text-decoration: underline;
+}
+.links>p:hover {
+    cursor: default;
+}
+#scooter>img {
+    width: 260px;
+}
+.sunny{
+height:168px;
+width:225px;
+border-radius: 10px;
+}

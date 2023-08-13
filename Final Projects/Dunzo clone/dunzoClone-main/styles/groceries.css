@@ -1,0 +1,154 @@
+*{
+margin:0%;
+font-family: 'Roboto', sans-serif;
+}
+
+#nav{
+height: 75px;
+background-color: white;
+top:0%;
+width: 100%;
+overflow: hidden;
+position: fixed;
+}
+
+#nav img{
+height: 60%;
+position: absolute;
+margin-left: 13%;
+box-sizing: border-box;
+top: 25%;
+bottom: 25%;
+}
+
+#head{
+display: flex;
+height: 200px;
+margin-top:70px;
+background-color: rgb(247, 253, 250);;
+}
+
+#name{
+margin-left: 14%;
+cursor: pointer;
+font-weight: 500;
+font-size: 12px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.image{
+display: flex;
+margin-top: 6%;
+margin-left: -8%;
+flex-direction: row;
+height: 95%;
+}
+
+.image>#image0{
+background-color: rgba(0, 210, 144, 0.08);;
+align-items: center;
+border-radius: 10px;
+width:100px;
+height:40%;
+display: flex;
+}
+
+#image0>img{
+width:50%;
+padding-left: 24px;
+  
+}
+
+.image>#image1{
+margin-left:18px;
+margin-top:20px;
+}
+
+#image1>h4{
+font-weight:normal;
+color:gray;
+}
+
+#sam {
+width: 85%;
+height: 35px;
+background-color: white;
+position: fixed;
+padding: 1% 10%;
+margin-top: -70px;
+}
+
+#sam>div {
+padding: 0% 0%;
+margin: 0.5% 0%;
+float: left;
+}
+
+#sam>img {
+float: left;
+margin-left: 5%;
+width: 10%;
+height: 80%;
+}
+
+#location{
+height:20px;
+display: flex;
+cursor: pointer;
+flex-direction: row;
+}
+
+/* ------------------------------------------ Body Part-------------------------------- */
+
+#body{
+width:75%;
+margin: auto;
+margin-top: 60px;
+height: 700px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+#body>#store{
+width:40%;
+height:150px;
+display: flex;
+border-radius: 10px;
+margin-right: 10%;
+flex-direction: row;
+background-color: white;
+align-items: center;
+}
+
+#store:hover{
+box-shadow: 1px 1px 10px 1px lightgray;
+}
+#store>img{
+width:30%;
+height:70%;
+margin-right:5%;
+margin-left:5%;
+};
+#details{
+line-height: 25px;
+}
+
+#cart{
+position: relative;
+}
+#cart > #circle{
+position: absolute;
+left: 70%;
+bottom: 80%;
+}
+#circle{
+display: initial;
+color: white;
+border-radius: 20px;
+background-color: red;
+position: absolute;
+width: 20px;
+height: 20px;
+text-align: center;
+}

@@ -1,0 +1,133 @@
+#main {
+  margin-top: 150px;
+}
+.topbar{
+  display: flex;
+  
+  padding: 10px;
+  padding-left: -10%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: -12px;
+ 
+}
+#logo{
+  margin-right: 50%;
+  padding-left: 10%;
+  padding-right:10%;
+  margin-top: 10px;
+  
+}
+#logo>img{
+  width: 100px;
+  height: 50px;
+ 
+  
+}
+#cartlogo>img{
+  width:50px;
+  height:50px;
+  margin-left: 50%;
+}
+
+
+
+.container {
+ 
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+ display: flex;
+ /* width:80%;
+ height:auto;
+  margin:auto */
+}
+#contTop{
+  /* display:flex; */
+  margin-bottom:-15px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  margin-top: 80px;
+  
+  /* width:90%;
+  margin:auto */
+ 
+
+}
+.topDiv{
+display: flex;
+  margin: 15px;
+}
+.topDiv>h1{
+  display: inline;
+  margin-left:15px
+}
+#ageVerify{
+  /* margin: 20px 20px 0px 50px; */
+  margin-left:20px;
+  margin-top: 20px;
+ 
+  padding-left: 10px;
+  font-weight:bold;
+  text-align: center;
+  color:rgb(74,171,244);
+  font-size: 20px;
+  background-color: rgb(245,251,255);
+}
+.btn{
+ 
+  /* margin-left: 70%; */
+  margin:20px 15px 0px 45%;
+  /* display: flex; */
+}
+#editbtn{
+ margin-right: 15px;
+
+  border-radius: 10px;
+ font-size: larger;
+ font-weight: bold;
+ color: rgb(90,218,176);
+
+  
+ 
+}
+#logout{
+  /* margin-left: 120px; */
+
+  border-radius: 10px;
+ font-size: larger;
+ font-weight: bold;
+ color: rgb(235,72,66);
+
+   
+ 
+}
+
+.sidebar {
+  font-family: sans-serif;
+  margin: 10px 40px 0px 25px;
+
+  padding-top: 10px;
+  padding-left: -1%;
+  padding-right: 1%;
+  orientation: vertical;
+  background-color: rgb(243, 243, 245);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* position: absolute; */
+  width: auto;
+  height:400px;
+  overflow-y: scroll;
+}
+.sidebar ul{
+  margin-bottom: 80px;
+
+ 
+}
+.sidebar ul li {
+  list-style-type: none;
+}
+.sidebar ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+ margin-bottom: 100px;
+ 
+}

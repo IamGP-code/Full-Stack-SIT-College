@@ -1,0 +1,66 @@
+
+#pgdata{
+    margin-top: 30px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+   
+  }
+  #addressBtn{
+    text-align: center;
+    height: 150px;
+    width:300px;
+    border: 1px dotted red;
+    color: green;
+    font-weight: 700;
+    margin: 50px;
+    line-height: 150px;
+    text-align:center;
+    font-size: 20px;
+    /* display: inline; */
+  }
+  #addBox{
+    text-align: center;
+    /* height: 150px; */
+    width:300px;
+    border: 1px dotted red;
+    margin: 50px;
+    /* line-height: 150px; */
+    text-align:center;
+    font-size: 20px;
+  }
+  
+  .popup{
+    height:500px;
+    width: 50%;
+    padding: 30px 20px 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    left:50%;
+    top:0;
+    transform: translate(-50%,-50%) scale(0.1);
+    position: absolute;
+    visibility: hidden;
+    transition : transform 0.4s, top 0.4s;
+    justify-content: center;
+    text-align: center;
+  }
+  .openpopUp{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+  }
+  
+  input,label{
+    display:block;
+  
+  }
+  
+  .form{
+    margin:auto;
+    font-size: larger;
+    margin:20px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  

@@ -1,0 +1,98 @@
+
+        body{
+            font-family: Gilroy,sans-serif;
+            font-weight: 500;
+        }
+        #content-head{
+        box-sizing: border-box;
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+        top: 0px;
+        background: rgb(247, 253, 250);
+        }
+        #father{
+            height: 250px;
+            background: rgb(247, 253, 250);
+            margin-bottom: 40px;
+            
+        }
+        #father div{
+            margin: auto;
+            margin-top: 50px;
+            margin-left: 50px;
+            justify-content: center;
+          
+        }
+        #FishHome{
+            display: flex;
+            box-sizing: border-box;
+            
+        }
+        #imghome{
+            display: flex;
+            box-sizing: border-box;
+            margin: auto;
+            margin-right: 10px;
+        }
+        #textc p{
+            margin-top: -20px;
+        }
+       
+        /* here is the body part */
+        #allmeat{
+            display: grid;
+            grid-template-columns: repeat(2,40%);
+            gap: 15px;
+            margin-left: 150px;
+
+            box-sizing: border-box;
+            padding-top: 4px;
+
+        }
+        #foodbyfood{
+            display: flex;
+            gap: 20px;
+            height: 160px;
+        }
+        .kms , .sernamefd{
+            display: flex;
+            gap: 30px;
+            margin-top: -10px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: rgb(87, 94, 115);
+            opacity: 0.8;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowra
+        }
+        #imgfood img{
+            border-radius: 16px;
+            height: 140px;
+            margin-left: 20px;
+        }
+        #imghome{
+            height: 100px;
+            width: 100px;
+            box-sizing: border-box;
+            display: flex;
+            background: rgba(0, 210, 144, 0.08);
+            border-radius: 16px;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        #foodbyfood:hover{
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            border-radius: 16px;
+        }
+        #contfood{
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+        }
+        .hour{
+            display: flex;
+        }

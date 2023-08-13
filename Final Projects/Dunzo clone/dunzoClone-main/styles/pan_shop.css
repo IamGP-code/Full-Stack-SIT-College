@@ -1,0 +1,49 @@
+#advance{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding-top: 200px;
+}
+#flake{
+    
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #e4f9f1 ;
+}
+#advance>div>img{
+    width: 50px;
+    height: 50px;
+}
+#advance>div:last-child{
+    margin-left: 20px;
+    margin-top: -13px;
+}
+.excel{
+    margin-top: -15px;
+}
+#pan_Dukan{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+    width: 70%;
+    margin: auto;
+    padding-top: 30px;
+    
+}
+#pan_Dukan>div:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+#pan_Dukan>div{
+    display: flex;
+    
+}
+#pan_Dukan>div>div:last-child{
+   
+    margin-left: 30px;
+}
+#pan_Dukan>div>div>img{
+    width: 150px;
+    height: 150px;
+}

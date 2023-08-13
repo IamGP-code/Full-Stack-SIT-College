@@ -1,0 +1,90 @@
+/* Header Start */
+body {
+    font-family: Gilroy,sans-serif;
+}
+#navbar123 {
+    padding-top: 15px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-size: 14px;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    top: 0;
+}
+.green123 {
+    color: rgb(0,179,122);
+}
+#menubar123 {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+#menubar123>div {
+    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.options123 {
+    border: 0px solid black;
+    font-size: 14px;
+    cursor: pointer;
+}
+.icons123 {
+    font-size: 20px;
+}
+.iconText123 {
+    font-size: 12px;
+}
+#menuLeft>div>a>img {
+    padding-top: 5px;
+    width: 120px;
+    cursor: pointer;
+}
+#menuRight>div {
+    text-align: center;
+}
+.menuTop {
+    padding-top: 10px;
+}
+.menuTop>i {
+    color: rgb(0, 179, 122);
+}
+.hover123>a {
+    color: black;
+    text-decoration: none;
+}
+.hover123>a:hover {
+    color: rgb(0, 179, 122);
+    cursor: pointer;
+}
+.hover123:hover {
+    color: rgb(0, 179, 122);
+    cursor: pointer;
+}
+#cart123 {
+    display: flex;
+    box-sizing: border-box;
+}
+
+#cartItems123 {
+    box-sizing: border-box;
+    display: none;
+    position: absolute;
+    background: rgb(255, 46, 86);
+    height: 18px;
+    width: 18px;
+    padding: 1px;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 15px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    top:7px;
+}
+/* Header End */
